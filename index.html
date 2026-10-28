@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="A simple responsive website demonstrating consistent integration of pre-designed icons." />
+  <title>Iconly — Simple Icon Integration</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#" aria-label="Iconly home">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 24 24"><path d="M12 3.5 14.4 9.6 21 12l-6.6 2.4L12 21l-2.4-6.6L3 12l6.6-2.4L12 3.5Z"/></svg>
+      </span>
+      <span>iconly<span class="brand-dot">.</span></span>
+    </a>
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="#features">Features</a>
+      <a href="#library">Icon library</a>
+      <a href="#about">About</a>
+    </nav>
+    <button class="theme-toggle" id="themeToggle" type="button" aria-label="Toggle color theme">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.2 15.4A8.4 8.4 0 0 1 8.6 3.8 8.5 8.5 0 1 0 20.2 15.4Z"/></svg>
+      <span>Theme</span>
+    </button>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <span class="eyebrow"><span class="status-dot"></span> A clean, simple icon system</span>
+        <h1>Small details.<br /><span>Better experiences.</span></h1>
+        <p>A responsive website starter showing how a consistent set of pre-designed icons can make an interface clearer, friendlier, and easier to navigate.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#library">Explore the icons <span aria-hidden="true">↗</span></a>
+          <a class="button button-secondary" href="#about">Learn more</a>
+        </div>
+        <div class="hero-note">
+          <span class="avatar-stack" aria-hidden="true"><span>A</span><span>B</span><span>C</span></span>
+          <span>Designed for clarity and consistency</span>
+        </div>
+      </div>
+      <div class="hero-art" aria-label="Decorative preview of an icon interface">
+        <div class="art-orbit orbit-one"></div><div class="art-orbit orbit-two"></div>
+        <div class="floating-icon float-star"><svg viewBox="0 0 24 24"><path d="m12 2 2.8 6.2L21 11l-6.2 2.8L12 20l-2.8-6.2L3 11l6.2-2.8L12 2Z"/></svg></div>
+        <div class="floating-icon float-check"><svg viewBox="0 0 24 24"><path d="m5 12 4 4L19 6"/></svg></div>
+        <div class="floating-icon float-heart"><svg viewBox="0 0 24 24"><path d="M20.8 8.8c0 5.1-8.8 10-8.8 10S3.2 13.9 3.2 8.8A4.8 4.8 0 0 1 12 6.2a4.8 4.8 0 0 1 8.8 2.6Z"/></svg></div>
+        <div class="preview-card">
+          <div class="preview-top"><span class="preview-label">ICON SET / 01</span><span class="preview-menu">•••</span></div>
+          <div class="preview-grid">
+            <div class="preview-item purple"><svg viewBox="0 0 24 24"><path d="M4 5h16v14H4zM8 9h8M8 13h5"/></svg></div>
+            <div class="preview-item peach"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8"/><path d="M12 8v8M8 12h8"/></svg></div>
+            <div class="preview-item mint"><svg viewBox="0 0 24 24"><path d="m5 12 4 4L19 6"/></svg></div>
+            <div class="preview-item blue"><svg viewBox="0 0 24 24"><path d="M12 3v18M3 12h18M5.6 5.6l12.8 12.8M18.4 5.6 5.6 18.4"/></svg></div>
+          </div>
+          <div class="preview-footer"><span class="tiny-line"></span><span class="tiny-line short"></span><span class="tiny-pill">Consistent UI</span></div>
+        </div>
+        <span class="art-caption">Thoughtful by design</span>
+      </div>
+    </section>
+
+    <section class="stats" aria-label="Project highlights">
+      <div><strong>01</strong><span>Consistent style</span></div>
+      <div><strong>100%</strong><span>Responsive layout</span></div>
+      <div><strong>0</strong><span>Extra libraries required</span></div>
+    </section>
+
+    <section class="section" id="features">
+      <div class="section-heading">
+        <span class="eyebrow">WHY ICONS MATTER</span>
+        <h2>Make every interaction feel intuitive.</h2>
+        <p>Icons are more than decoration. Used consistently, they help people scan content and understand actions faster.</p>
+      </div>
+      <div class="feature-grid">
+        <article class="feature-card">
+          <div class="feature-icon lilac"><svg viewBox="0 0 24 24"><path d="M4 5h16v14H4zM8 9h8M8 13h5"/></svg></div>
+          <h3>Clear communication</h3><p>Simple visual cues help users recognize common actions and sections.</p>
+        </article>
+        <article class="feature-card">
+          <div class="feature-icon peach"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8"/><path d="M12 8v8M8 12h8"/></svg></div>
+          <h3>Consistent styling</h3><p>A unified stroke, size, and color system makes the interface feel cohesive.</p>
+        </article>
+        <article class="feature-card">
+          <div class="feature-icon mint"><svg viewBox="0 0 24 24"><path d="m5 12 4 4L19 6"/></svg></div>
+          <h3>Easy to adapt</h3><p>Reusable SVG icons stay crisp on mobile, tablet, and desktop screens.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section library-section" id="library">
+      <div class="section-heading library-heading">
+        <div><span class="eyebrow">THE COLLECTION</span><h2>A small library of useful icons.</h2></div>
+        <label class="search-box">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.8"/><path d="m16 16 4.5 4.5"/></svg>
+          <input id="iconSearch" type="search" placeholder="Search icons..." aria-label="Search icons" />
+        </label>
+      </div>
+      <div class="icon-grid" id="iconGrid">
+        <article class="icon-card" data-name="home house"><div class="icon-tile"><svg viewBox="0 0 24 24"><path d="m3 10 9-7 9 7v10a1 1 0 0 1-1 1h-5v-7H9v7H4a1 1 0 0 1-1-1V10Z"/></svg></div><strong>Home</strong><span>Navigation</span></article>
+        <article class="icon-card" data-name="user profile account"><div class="icon-tile"><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/></svg></div><strong>User</strong><span>Account</span></article>
+        <article class="icon-card" data-name="search find magnify"><div class="icon-tile"><svg viewBox="0 0 24 24"><circle cx="10.8" cy="10.8" r="6.8"/><path d="m16 16 4.5 4.5"/></svg></div><strong>Search</strong><span>Utility</span></article>
+        <article class="icon-card" data-name="heart favorite like"><div class="icon-tile"><svg viewBox="0 0 24 24"><path d="M20.8 8.8c0 5.1-8.8 10-8.8 10S3.2 13.9 3.2 8.8A4.8 4.8 0 0 1 12 6.2a4.8 4.8 0 0 1 8.8 2.6Z"/></svg></div><strong>Heart</strong><span>Favorite</span></article>
+        <article class="icon-card" data-name="bell notification alert"><div class="icon-tile"><svg viewBox="0 0 24 24"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 7-3 9h18c0-2-3-2-3-9M10 21h4"/></svg></div><strong>Bell</strong><span>Notification</span></article>
+        <article class="icon-card" data-name="settings gear preferences"><div class="icon-tile"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="m19.4 15 .1.1 1.4 1.1-1.4 2.4-1.7-.7a8 8 0 0 1-1.8 1l-.3 1.8h-2.8l-.3-1.8a8 8 0 0 1-1.8-1l-1.7.7-1.4-2.4L7.1 15a8 8 0 0 1 0-2l-1.4-1.1 1.4-2.4 1.7.7a8 8 0 0 1 1.8-1l.3-1.8h2.8l.3 1.8a8 8 0 0 1 1.8 1l1.7-.7 1.4 2.4-1.4 1.1a8 8 0 0 1-.1 2Z"/></svg></div><strong>Settings</strong><span>Preferences</span></article>
+        <article class="icon-card" data-name="calendar date schedule"><div class="icon-tile"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M16 3v4M8 3v4M3 10h18"/></svg></div><strong>Calendar</strong><span>Planning</span></article>
+        <article class="icon-card" data-name="message chat conversation"><div class="icon-tile"><svg viewBox="0 0 24 24"><path d="M20 11.5a7.5 7.5 0 0 1-8 7.5 8.5 8.5 0 0 1-4-.9L3 20l1.5-4A7.3 7.3 0 0 1 4 12c0-4.1 3.6-7.5 8-7.5s8 3.1 8 7Z"/></svg></div><strong>Message</strong><span>Communication</span></article>
+      </div>
+      <p class="empty-state" id="emptyState" hidden>No icons match your search. Try another word.</p>
+    </section>
+
+    <section class="cta" id="about">
+      <div class="cta-icon"><svg viewBox="0 0 24 24"><path d="m12 3 2.5 6.5L21 12l-6.5 2.5L12 21l-2.5-6.5L3 12l6.5-2.5L12 3Z"/></svg></div>
+      <div><h2>Good design lives in the details.</h2><p>A lightweight example of clean structure, accessible labels, and reusable icon styling.</p></div>
+      <a class="button button-light" href="#library">View collection <span aria-hidden="true">↗</span></a>
+    </section>
+  </main>
+
+  <footer class="site-footer"><a class="brand footer-brand" href="#"><span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3.5 14.4 9.6 21 12l-6.6 2.4L12 21l-2.4-6.6L3 12l6.6-2.4L12 3.5Z"/></svg></span><span>iconly<span class="brand-dot">.</span></span></a><span>Simple Icon Integration · Demo Project</span><a href="#top" class="back-top">Back to top ↑</a></footer>
+  <script src="script.js"></script>
+</body>
+</html>
